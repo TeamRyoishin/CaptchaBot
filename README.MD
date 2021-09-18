@@ -11,7 +11,7 @@ Go to [releases](https://github.com/TeamRyoishin/CaptchaBot/) and download one f
 ### Building From Source
 At first get all the required packages:
 ```bash
-go get github.com/dchest/captcha
+go get github.com/TeamRyoishin/captcha
 go get github.com/go-telegram-bot-api/telegram-bot-api
 go get github.com/boltdb/bolt
 ```
@@ -28,7 +28,7 @@ Then build the program with
 ### Normal Captcha
 Bot sends the user a normal captcha image that contains 8 digits. User must enter the digits via telegram to receive the link.
 
-_Example Image_ ![Example](https://raw.githubusercontent.com/dchest/captcha/master/capgen/example.png)
+_Example Image_ ![Example](https://raw.githubusercontent.com/TeamRyoishin/captcha/master/capgen/example.png)
 
 However these old captchas might not be very secure.
 ### Recaptcha V2
